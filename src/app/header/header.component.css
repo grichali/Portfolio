@@ -50,9 +50,9 @@
 }
 
 .linkedin-logo {
-  background-size: contain;
   width: 30px;
   height: 30px;
+  margin-right: 8px;
 }
 
 .github-logo {
