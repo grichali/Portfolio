@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { HeaderComponent } from './header/header.component';
-import { HeroComponent } from './hero/hero.component';
-import { AboutComponent } from './about/about.component';
-import { SkillsComponent } from './skills/skills.component';
 import { CommonModule } from '@angular/common';
-import { ProjectsComponent } from './projects/projects.component';
+import { HeaderComponent } from './Components/header/header.component';
+import { HeroComponent } from './Components/hero/hero.component';
+import { AboutComponent } from './Components/about/about.component';
+import { SkillsComponent } from './Components/skills/skills.component';
+import { ProjectsComponent } from './Components/projects/projects.component';
 
 @Component({
   selector: 'app-root',

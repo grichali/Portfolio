@@ -1,0 +1,21 @@
+<div class="projects">
+  <div class="container">
+      <h2 class="projects">projects</h2>
+      <div class="projects-grid">
+        <div class="project-card" *ngFor="let project of projects">
+          <img [src]="project.image" [alt]="project.image">
+          <div class="project-details">
+            <h3 class="project-title">{{ project.title }}</h3>
+            <p class="project-description">
+              {{ project.description }}
+            </p>
+            <p class="tech-stack">
+              Tech Stack: {{ project.techStack }}
+            </p>
+              <a [href]="project.codeLink" class="project-link" target="_blank">View Code</a>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
+
