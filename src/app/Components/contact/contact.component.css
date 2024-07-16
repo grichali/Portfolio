@@ -1,0 +1,111 @@
+.contact {
+  background-color: #3D3E42;
+  padding: 40px 0;
+  text-align: center;
+  color: #fff;
+}
+
+.contact .container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+  position: relative;
+}
+
+.contact h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #fff;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact h2::before,
+.contact h2::after {
+  content: "";
+  flex: 1;
+  height: 2px;
+  background-color: #f0a500;
+  margin: 0 20px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.contact-item .icon {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.contact-item a {
+  font-size: 18px;
+  color: #f0a500;
+  text-decoration: none;
+}
+
+.contact-item span {
+  font-size: 18px;
+  color: #f0a500;
+}
+
+.social-icons {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.social-icons::before,
+.social-icons::after {
+  content: "";
+  flex: 1;
+  height: 2px;
+  background-color: #f0a500;
+  margin: 0 20px;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  font-size: 24px;
+  color: #f0a500;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: #ffbf00;
+}
+
+.contact-item .icon, .social-icons a {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .contact h2 {
+    font-size: 28px;
+  }
+
+  .contact h2::before, .contact h2::after {
+    margin: 0 10px;
+  }
+
+  .social-icons::before, .social-icons::after {
+    margin: 0 10px;
+  }
+
+  .contact-item a, .contact-item span {
+    font-size: 16px;
+  }
+
+  .contact-item .icon, .social-icons a {
+    font-size: 20px;
+  }
+}

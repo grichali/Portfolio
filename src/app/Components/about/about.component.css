@@ -1,5 +1,5 @@
 .about{
-  background-color: #34353A;
+  background-color: #31333B;
   color: white;
   padding: 60px 20px;
   margin-top: 0px;
@@ -8,7 +8,6 @@
 .container{
   display: block;
   align-items: center;
-  background-color: #34353A;
   max-width: 1200px;
   margin: 0 auto;
   padding: 0;
@@ -31,7 +30,6 @@ h2::after {
   background-color: #FFC86B;
   margin-top: 25px;
   flex-grow: 1;
-
 }
 
 .description {
