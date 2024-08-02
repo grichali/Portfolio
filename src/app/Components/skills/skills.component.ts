@@ -19,5 +19,6 @@ export class SkillsComponent {
     { imgPath: 'images/nestjs.png', name: '.NestJS' },
     { imgPath: 'images/python.png', name: 'Python' },
     { imgPath: 'images/mysql.png', name: 'MySQL' },
+    { imgPath: 'images/git.png', name: 'Git' },
   ];
 }
