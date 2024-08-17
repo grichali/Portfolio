@@ -11,15 +11,14 @@
   }
 }
 
-
-.about{
+.about {
   background-color: #31333B;
   color: white;
   padding: 60px 20px;
   margin-top: 0px;
 }
 
-.container{
+.container {
   display: block;
   align-items: center;
   max-width: 1200px;
@@ -27,13 +26,13 @@
   padding: 0;
   flex-direction: column;
 }
+
 h2 {
   position: relative;
   display: inline-block;
   margin: 0px;
   align-items: center;
   font-size: 30px;
-
 }
 
 h2::after {
@@ -49,10 +48,21 @@ h2::after {
 .description {
   margin-top: -13px;
   padding-left: 70px;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 20px;
 }
 
+.greeting {
+  margin-bottom: 20px;
+}
 
+.greeting-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #FFC86B; /* Highlight color */
+  display: inline;
+}
 
-
+.greeting h2 {
+  margin: 0;
+}

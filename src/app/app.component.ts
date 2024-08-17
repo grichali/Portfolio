@@ -7,6 +7,7 @@ import { AboutComponent } from './Components/about/about.component';
 import { SkillsComponent } from './Components/skills/skills.component';
 import { ProjectsComponent } from './Components/projects/projects.component';
 import { ContactComponent } from './Components/contact/contact.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @Component({
   selector: 'app-root',
@@ -17,7 +18,7 @@ import { ContactComponent } from './Components/contact/contact.component';
     AboutComponent,
     SkillsComponent,
     ProjectsComponent,
-    ContactComponent
+    ContactComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
